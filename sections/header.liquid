@@ -1,0 +1,60 @@
+<!-- Header -->
+<header class="fullscreen-menu invert-header" data-menucolor="#0c0c0c">
+    <div id="header-container">
+        <!-- Logo -->
+        <div id="logo" class="hide-ball">
+            <a class="ajax-link" data-type="page-transition" href="{{ routes.root_url }}">
+                <img class="black-logo" src="{{ 'images/logo.svg' | asset_url }}" alt="{{ shop.name }}">
+                <img class="white-logo" src="{{ 'images/logo.svg' | asset_url }}" alt="{{ shop.name }}">
+            </a>
+        </div>
+        <!--/Logo -->
+        
+        <!-- Navigation -->
+        <nav> 
+            <div class="nav-height">
+                <div class="outer">
+                    <div class="inner">           
+                        <ul data-breakpoint="10025" class="flexnav">
+                            <li class="link menu-timeline"><a class="" href="#"><div class="before-span"><span data-hover="Connect">Socials</span></div></a>
+                                <ul>
+                                    <li><a class="ajax-link" href="{{ pages['linkedin'].url }}" data-type="page-transition">Linkedin</a></li>
+                                    <li><a class="ajax-link" href="{{ pages['instagram'].url }}" data-type="page-transition">Instagram</a></li>
+                                    <li><a class="ajax-link" href="{{ pages['archive-gallery'].url }}" data-type="page-transition">Archive Gallery</a></li> 
+                                </ul>
+                            </li>
+                            <li class="link menu-timeline"><a class="" href="#"><div class="before-span"><span data-hover="View">Work</span></div></a>
+                                <ul>
+                                    <li><a class="ajax-link" href="{{ pages['project05'].url }}" data-type="page-transition">Eqpme</a></li>
+                                    <li><a class="ajax-link" href="{{ pages['project06'].url }}" data-type="page-transition">Sovi Creative</a></li>
+                                    <li><a class="ajax-link" href="{{ pages['project07'].url }}" data-type="page-transition">Shopify</a></li> 
+                                </ul>
+                            </li>
+                            <li class="link menu-timeline"><a class="ajax-link" data-type="page-transition" href="{{ pages['events'].url }}"><div class="before-span"><span data-hover="Sign Up">Events</span></div></a></li>
+                            <li class="link menu-timeline"><a class="ajax-link" data-type="page-transition" href="{{ pages['contact'].url }}"><div class="before-span"><span data-hover="Email">Contact</span></div></a></li>
+                        </ul>            
+                    </div>
+                </div> 
+            </div>          
+        </nav>
+        <!--/Navigation -->
+        
+        <!-- Menu Burger -->
+        <div class="button-wrap right menu burger-lines">
+            <div class="icon-wrap parallax-wrap">
+                <div class="button-icon parallax-element">
+                    <div id="burger-wrapper">
+                        <div id="menu-burger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="button-text sticky right"><span data-hover="Menu">Menu</span></div> 
+        </div>
+        <!--/Menu Burger -->
+    </div>
+</header>
+<!--/Header --> 

@@ -1,0 +1,62 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "Portfolio Theme",
+    "theme_version": "1.0.0",
+    "theme_author": "Stephan Peralta",
+    "theme_documentation_url": "",
+    "theme_support_url": ""
+  },
+  {
+    "name": "Colors",
+    "settings": [
+      {
+        "type": "color",
+        "id": "primary_color",
+        "label": "Primary Color",
+        "default": "#8c6144"
+      },
+      {
+        "type": "color",
+        "id": "background_color",
+        "label": "Background Color",
+        "default": "#0c0c0c"
+      }
+    ]
+  },
+  {
+    "name": "Social Media",
+    "settings": [
+      {
+        "type": "text",
+        "id": "social_dribbble",
+        "label": "Dribbble URL",
+        "default": "https://www.dribbble.com"
+      },
+      {
+        "type": "text",
+        "id": "social_twitter",
+        "label": "Twitter URL",
+        "default": "https://www.twitter.com"
+      },
+      {
+        "type": "text",
+        "id": "social_behance",
+        "label": "Behance URL",
+        "default": "https://www.behance.net"
+      },
+      {
+        "type": "text",
+        "id": "social_facebook",
+        "label": "Facebook URL",
+        "default": "https://www.facebook.com"
+      },
+      {
+        "type": "text",
+        "id": "social_instagram",
+        "label": "Instagram URL",
+        "default": "https://www.instagram.com"
+      }
+    ]
+  }
+] 
